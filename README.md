@@ -1,4 +1,4 @@
-# Todo List using Redux
+# Todo using Redux
 ## Todo list with authentication and authorization in React using Redux connected with express
 
 ## User Stories
