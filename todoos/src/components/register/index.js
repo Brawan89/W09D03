@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import axios from "axios";
 
 
 const Register = () => {
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -15,6 +19,7 @@ const Register = () => {
         role: "61ac945d4681b01bd751c7ee",
       });
       console.log(result);
+      navigate("/login");
     } catch (error) {
       console.log(error);
     }
