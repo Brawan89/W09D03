@@ -29,6 +29,7 @@ cd my-app
 npm start
 ```
 
+
 ###### Start Redux
 > install
 ```
@@ -70,3 +71,8 @@ you functional components instead of passing down as props
 - Register
 - Login
 - Todos
+
+## ER Diagram
+
+
+  ![ERD1](https://user-images.githubusercontent.com/92247926/145235954-fc0dbec7-2bd1-40fa-bf3e-684c1adf1e49.png)
