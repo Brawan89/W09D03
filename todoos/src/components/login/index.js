@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Todos from "../todos";
 import { log } from "./../../reducers/login";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -38,7 +37,7 @@ const Login = () => {
 
   return (
     <>
-      {!state.signIn.token ? (
+
         <>
           <input
             type="text"
@@ -54,9 +53,8 @@ const Login = () => {
           />
           <button onClick={login}>login</button>
         </>
-      ) : (
-        <Todos  />
-      )}
+     
+      
     </>
   );
 };
