@@ -14,9 +14,10 @@
 
 ###### Redux
 ```
-Redux is a pattern and library for managing and updating application state, 
-using events called "actions". It serves as a centralized store for a state 
-that needs to be used across your entire application, with rules ensuring 
+Redux is a pattern and library for managing and 
+updating application state, using events called "actions". 
+It serves as a centralized store for a state that needs to be 
+used across your entire application, with rules ensuring 
 that the state can only be updated in a predictable fashion.
 ```
 
@@ -27,7 +28,6 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-> While running locally: http://localhost:3000
 
 ###### Start Redux
 > install
