@@ -71,3 +71,9 @@ you functional components instead of passing down as props
 - Register
 - Login
 - Todos
+  
+  
+ ## UML Diagram
+  
+  ![umlF](https://user-images.githubusercontent.com/92247926/145265692-4b6d31ac-200e-46a5-a817-30954f2765f5.png)
+
